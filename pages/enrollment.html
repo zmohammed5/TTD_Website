@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enroll your child at Tiny Todd's Daycare in Richmond Hill, NY. Start the enrollment process for infant care, toddler programs, preschool, or after-school care.">
+    <title>Enrollment | Tiny Todd's Daycare Inc</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="logo">
+                <span class="logo-icon">🧸</span>
+                <span class="logo-text">TTD</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="programs.html" class="nav-link">Programs</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+                <li><a href="enrollment.html" class="nav-link active">Enrollment</a></li>
+                <li><a href="contact.html" class="nav-link btn-nav">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <h1>Start <span class="highlight">Enrollment</span></h1>
+        <p>Join the Tiny Todd's family today!</p>
+    </header>
+
+    <!-- Enrollment Info -->
+    <section class="enrollment-info">
+        <div class="container">
+            <div class="info-grid">
+                <div class="enrollment-intro">
+                    <h2>How to <span class="highlight">Enroll</span></h2>
+                    <p>We're excited that you're considering Tiny Todd's Daycare for your child! Since 2003, we've been helping families in Richmond Hill with quality childcare, and we'd love to welcome your family to ours.</p>
+
+                    <div class="enrollment-steps">
+                        <div class="step">
+                            <span class="step-number">1</span>
+                            <div>
+                                <h4>Submit Inquiry</h4>
+                                <p>Fill out the form below with your child's information</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <span class="step-number">2</span>
+                            <div>
+                                <h4>Schedule a Tour</h4>
+                                <p>We'll contact you to schedule a visit to our facility</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <span class="step-number">3</span>
+                            <div>
+                                <h4>Meet & Greet</h4>
+                                <p>Meet Mrs. Naeema and see our programs in action</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <span class="step-number">4</span>
+                            <div>
+                                <h4>Complete Enrollment</h4>
+                                <p>Finalize paperwork and welcome to the family!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="program-options">
+                    <h3>Our Programs</h3>
+                    <div class="option-cards">
+                        <div class="option-card">
+                            <span>👶</span>
+                            <h4>Infant Care</h4>
+                            <p>6 weeks - 12 months</p>
+                        </div>
+                        <div class="option-card">
+                            <span>🧒</span>
+                            <h4>Toddler</h4>
+                            <p>1 - 2 years</p>
+                        </div>
+                        <div class="option-card">
+                            <span>🎨</span>
+                            <h4>Preschool</h4>
+                            <p>3 - 4 years</p>
+                        </div>
+                        <div class="option-card">
+                            <span>📚</span>
+                            <h4>After School</h4>
+                            <p>5 - 10 years</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NYC 3K Info -->
+    <section class="threek-info">
+        <div class="container">
+            <div class="threek-box">
+                <div class="threek-content">
+                    <span class="threek-badge">🏫 NYC 3K Partner</span>
+                    <h3>Looking for NYC 3K?</h3>
+                    <p>We partner with the NYC 3K for All program! For 3K enrollment, the process goes through the NYC Department of Education. Contact us and we'll connect you with our 3K coordinator for more information.</p>
+                    <a href="contact.html" class="btn btn-secondary">Contact Us About 3K</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enrollment Form -->
+    <section class="enrollment-form-section">
+        <div class="container">
+            <div class="form-container">
+                <h2 class="section-title">Enrollment <span class="highlight">Inquiry Form</span></h2>
+                <p class="section-subtitle">Fill out the form below and we'll be in touch within 24-48 hours</p>
+
+                <form id="enrollment-form" class="enrollment-form">
+                    <!-- Parent/Guardian Information -->
+                    <div class="form-section">
+                        <h3>Parent/Guardian Information</h3>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="parent-first">First Name *</label>
+                                <input type="text" id="parent-first" name="parent_first" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="parent-last">Last Name *</label>
+                                <input type="text" id="parent-last" name="parent_last" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required oninput="formatPhoneNumber(this)">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="address">Home Address</label>
+                            <input type="text" id="address" name="address" placeholder="Street address, City, State, ZIP">
+                        </div>
+                    </div>
+
+                    <!-- Child Information -->
+                    <div class="form-section">
+                        <h3>Child Information</h3>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="child-first">Child's First Name *</label>
+                                <input type="text" id="child-first" name="child_first" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="child-last">Child's Last Name *</label>
+                                <input type="text" id="child-last" name="child_last" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="child-dob">Date of Birth *</label>
+                                <input type="date" id="child-dob" name="child_dob" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="child-gender">Gender</label>
+                                <select id="child-gender" name="child_gender">
+                                    <option value="">Select...</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="other">Other/Prefer not to say</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Program Interest -->
+                    <div class="form-section">
+                        <h3>Program Interest</h3>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="program">Program Interested In *</label>
+                                <select id="program" name="program" required>
+                                    <option value="">Select a program...</option>
+                                    <option value="infant">Infant Care (6 weeks - 12 months)</option>
+                                    <option value="toddler">Toddler Program (1 - 2 years)</option>
+                                    <option value="preschool">Preschool (3 - 4 years)</option>
+                                    <option value="afterschool">After School (5 - 10 years)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="start-date">Desired Start Date</label>
+                                <input type="date" id="start-date" name="start_date">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="schedule">Schedule Preference</label>
+                            <select id="schedule" name="schedule">
+                                <option value="">Select...</option>
+                                <option value="fulltime">Full-Time (5 days/week)</option>
+                                <option value="flexible">Flexible / Discuss Options</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Additional Information -->
+                    <div class="form-section">
+                        <h3>Additional Information</h3>
+
+                        <div class="form-group">
+                            <label for="allergies">Allergies or Medical Conditions</label>
+                            <textarea id="allergies" name="allergies" rows="3" placeholder="Please list any allergies, medical conditions, or special needs we should be aware of..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="how-heard">How did you hear about us?</label>
+                            <select id="how-heard" name="how_heard">
+                                <option value="">Select...</option>
+                                <option value="internet">Internet Search</option>
+                                <option value="referral">Friend/Family Referral</option>
+                                <option value="facebook">Facebook</option>
+                                <option value="walked-by">Walked/Drove By</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="questions">Questions or Comments</label>
+                            <textarea id="questions" name="questions" rows="4" placeholder="Any questions or additional information you'd like to share..."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-submit">
+                        <button type="submit" class="btn btn-primary btn-large">Submit Enrollment Inquiry</button>
+                        <p class="form-note">* Required fields. We'll contact you within 24-48 hours.</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked <span class="highlight">Questions</span></h2>
+
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>What are your hours of operation?</h4>
+                    <p>We're open Monday through Friday, 7:00 AM to 6:00 PM. We're closed on weekends and major holidays.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>What ages do you accept?</h4>
+                    <p>We accept children from 6 weeks old through 10 years, including infant care, toddler programs, preschool, and after-school care.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Do you provide meals?</h4>
+                    <p>Yes! We provide nutritious breakfast, lunch, and snacks daily for all children.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Are you a NYC 3K provider?</h4>
+                    <p>Yes, we partner with the NYC 3K for All program. Contact us for more information about 3K enrollment.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>What should I bring for my child?</h4>
+                    <p>Please bring a change of clothes, diapers/pull-ups if needed, and any comfort items. We'll provide a full list upon enrollment.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Can I schedule a tour?</h4>
+                    <p>Absolutely! We encourage all parents to visit before enrolling. Call us at (718) 805-4195 or fill out our contact form to schedule.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>🧸 Tiny Todd's Daycare Inc.</h3>
+                    <p>Providing quality childcare and early education in Richmond Hill, Queens since 2003.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/p/Tiny-Todds-Daycare-100054476679217/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <span class="social-icon">📘</span> Facebook
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="enrollment.html">Enrollment</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li>📞 <a href="tel:7188054195">(718) 805-4195</a></li>
+                        <li>🕐 Mon-Fri: 7AM - 6PM</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Find Us</h4>
+                    <a href="https://www.google.com/maps/place/Tiny+Todd's+Daycare+Inc/@40.7017673,-73.8279797,17z" target="_blank" rel="noopener noreferrer">📍 86-14 123rd St<br>Richmond Hill, NY 11418</a>
+                    <br><br>
+                    <a href="https://www.google.com/maps/place/Tiny+Todd's+Daycare+Inc/@40.7017673,-73.8279797,17z" target="_blank" rel="noopener noreferrer" class="btn btn-small">
+                        📍 Get Directions
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Tiny Todd's Daycare Inc. All rights reserved.</p>
+                <p>Licensed Child Care Provider | Richmond Hill, Queens, NY</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+
+    <style>
+        /* Enrollment Page Specific Styles */
+        .enrollment-info {
+            padding: var(--spacing-xl) 0;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr;
+            gap: var(--spacing-lg);
+            align-items: start;
+        }
+
+        .enrollment-intro h2 {
+            font-size: 2rem;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .enrollment-intro > p {
+            color: var(--gray);
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .enrollment-steps {
+            display: flex;
+            flex-direction: column;
+            gap: var(--spacing-md);
+        }
+
+        .step {
+            display: flex;
+            align-items: flex-start;
+            gap: var(--spacing-md);
+        }
+
+        .step-number {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            background: var(--primary);
+            color: var(--white);
+            border-radius: 50%;
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        .step h4 {
+            color: var(--dark);
+            margin-bottom: 4px;
+        }
+
+        .step p {
+            color: var(--gray);
+            font-size: 0.95rem;
+        }
+
+        .program-options {
+            background: var(--light-gray);
+            padding: var(--spacing-md);
+            border-radius: var(--radius-lg);
+        }
+
+        .program-options h3 {
+            text-align: center;
+            margin-bottom: var(--spacing-md);
+            color: var(--dark);
+        }
+
+        .option-cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--spacing-sm);
+        }
+
+        .option-card {
+            background: var(--white);
+            padding: var(--spacing-sm);
+            border-radius: var(--radius-md);
+            text-align: center;
+            transition: var(--transition);
+        }
+
+        .option-card:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .option-card span {
+            font-size: 2rem;
+        }
+
+        .option-card h4 {
+            font-size: 0.95rem;
+            color: var(--dark);
+            margin: var(--spacing-xs) 0 2px;
+        }
+
+        .option-card p {
+            font-size: 0.8rem;
+            color: var(--gray);
+        }
+
+        .threek-info {
+            background: var(--light-gray);
+            padding: var(--spacing-lg) 0;
+        }
+
+        .threek-box {
+            background: linear-gradient(135deg, var(--secondary), var(--blue));
+            padding: var(--spacing-lg);
+            border-radius: var(--radius-lg);
+            color: var(--white);
+        }
+
+        .threek-content {
+            max-width: 700px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .threek-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 6px 16px;
+            border-radius: var(--radius-full);
+            font-weight: 600;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .threek-content h3 {
+            font-size: 1.8rem;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .threek-content p {
+            margin-bottom: var(--spacing-md);
+            opacity: 0.95;
+            line-height: 1.7;
+        }
+
+        .enrollment-form-section {
+            padding: var(--spacing-xl) 0;
+        }
+
+        .form-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .enrollment-form {
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-md);
+            overflow: hidden;
+        }
+
+        .form-section {
+            padding: var(--spacing-lg);
+            border-bottom: 1px solid var(--light-gray);
+        }
+
+        .form-section:last-of-type {
+            border-bottom: none;
+        }
+
+        .form-section h3 {
+            color: var(--primary);
+            margin-bottom: var(--spacing-md);
+            font-size: 1.3rem;
+        }
+
+        .form-submit {
+            padding: var(--spacing-lg);
+            background: var(--light-gray);
+            text-align: center;
+        }
+
+        .btn-large {
+            padding: var(--spacing-md) var(--spacing-lg);
+            font-size: 1.1rem;
+        }
+
+        .form-note {
+            margin-top: var(--spacing-sm);
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .option-cards {
+                grid-template-columns: 1fr;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+</html>

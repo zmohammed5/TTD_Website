@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Tiny Todd's Daycare in Richmond Hill, NY. Call, email, or visit us to learn about our childcare programs.">
+    <title>Contact Us | Tiny Todd's Daycare Inc</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="logo">
+                <span class="logo-icon">🧸</span>
+                <span class="logo-text">TTD</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="programs.html" class="nav-link">Programs</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+                <li><a href="enrollment.html" class="nav-link">Enrollment</a></li>
+                <li><a href="contact.html" class="nav-link btn-nav active">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <h1>Contact <span class="highlight">Us</span></h1>
+        <p>We'd love to hear from you!</p>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info-box">
+                    <h2>Get In <span class="highlight">Touch</span></h2>
+                    <p>Have questions about our programs? Want to schedule a tour? We're here to help! Reach out using any method below.</p>
+
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">📞</div>
+                            <div class="method-details">
+                                <h4>Call Us</h4>
+                                <a href="tel:7188054195">(718) 805-4195</a>
+                                <p>Mon-Fri, 7AM - 6PM</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon">✉️</div>
+                            <div class="method-details">
+                                <h4>Email Us</h4>
+                                <a href="mailto:TinyT.Daycare@gmail.com">TinyT.Daycare@gmail.com</a>
+                                <p>We'll respond as soon as possible</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon">📍</div>
+                            <div class="method-details">
+                                <h4>Visit Us</h4>
+                                <a href="https://www.google.com/maps/place/Tiny+Todd's+Daycare+Inc/@40.7017673,-73.8279797,17z" target="_blank" rel="noopener noreferrer">86-14 123rd Street<br>Richmond Hill, NY 11418</a>
+                                <a href="https://www.google.com/maps/place/Tiny+Todd's+Daycare+Inc/@40.7017673,-73.8279797,17z" target="_blank" rel="noopener noreferrer" class="directions-link">Get Directions →</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon">📘</div>
+                            <div class="method-details">
+                                <h4>Follow Us</h4>
+                                <a href="https://www.facebook.com/p/Tiny-Todds-Daycare-100054476679217/" target="_blank" rel="noopener noreferrer">Facebook Page</a>
+                                <p>Stay updated on activities!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hours-box">
+                        <h4>🕐 Hours of Operation</h4>
+                        <table class="hours-table">
+                            <tr>
+                                <td>Monday - Friday</td>
+                                <td>7:00 AM - 6:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday</td>
+                                <td>Closed</td>
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td>Closed</td>
+                            </tr>
+                            <tr>
+                                <td>Federal Holidays</td>
+                                <td>Closed</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-box">
+                    <h3>Send Us a Message</h3>
+                    <p>Fill out the form below and we'll get back to you within 24 hours.</p>
+
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required oninput="formatPhoneNumber(this)">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject">
+                                <option value="">Select a topic...</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="tour">Schedule a Tour</option>
+                                <option value="enrollment">Enrollment Questions</option>
+                                <option value="programs">Program Information</option>
+                                <option value="3k">NYC 3K Information</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="preferred-contact">Preferred Contact Method</label>
+                            <select id="preferred-contact" name="preferred_contact">
+                                <option value="">Select...</option>
+                                <option value="phone">Phone Call</option>
+                                <option value="email">Email</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="How can we help you?"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Find <span class="highlight">Us</span></h2>
+            <p class="section-subtitle">Located in the heart of Richmond Hill, Queens</p>
+
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.8!2d-73.8297!3d40.6947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25e3e5c0e0001%3A0x1234567890!2s86-14%20123rd%20St%2C%20Richmond%20Hill%2C%20NY%2011418!5e0!3m2!1sen!2sus!4v1234567890"
+                    width="100%"
+                    height="400"
+                    style="border:0; border-radius: 16px;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Tiny Todd's Daycare Location">
+                </iframe>
+            </div>
+
+            <div class="location-info">
+                <div class="location-detail">
+                    <h4>🚗 By Car</h4>
+                    <p>Street parking available. We're located on 123rd Street between Jamaica Ave and Hillside Ave.</p>
+                </div>
+                <div class="location-detail">
+                    <h4>🚇 By Subway</h4>
+                    <p>Take the J train to 121st Street station, then a short walk.</p>
+                </div>
+                <div class="location-detail">
+                    <h4>🚌 By Bus</h4>
+                    <p>Take the Q10, Q54, or Q56 bus with stops nearby.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Contact CTA -->
+    <section class="cta">
+        <div class="container">
+            <h2>Need Immediate Assistance?</h2>
+            <p>Give us a call - we're happy to answer your questions!</p>
+            <a href="tel:7188054195" class="btn btn-white btn-large">
+                📞 Call (718) 805-4195
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>🧸 Tiny Todd's Daycare Inc.</h3>
+                    <p>Providing quality childcare and early education in Richmond Hill, Queens since 2003.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/p/Tiny-Todds-Daycare-100054476679217/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <span class="social-icon">📘</span> Facebook
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="enrollment.html">Enrollment</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li>📞 <a href="tel:7188054195">(718) 805-4195</a></li>
+                        <li>🕐 Mon-Fri: 7AM - 6PM</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Find Us</h4>
+                    <a href="https://www.google.com/maps/place/Tiny+Todd's+Daycare+Inc/@40.7017673,-73.8279797,17z" target="_blank" rel="noopener noreferrer">📍 86-14 123rd St<br>Richmond Hill, NY 11418</a>
+                    <br><br>
+                    <a href="https://www.google.com/maps/place/Tiny+Todd's+Daycare+Inc/@40.7017673,-73.8279797,17z" target="_blank" rel="noopener noreferrer" class="btn btn-small">
+                        📍 Get Directions
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Tiny Todd's Daycare Inc. All rights reserved.</p>
+                <p>Licensed Child Care Provider | Richmond Hill, Queens, NY</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+
+    <style>
+        /* Contact Page Specific Styles */
+        .contact-section {
+            padding: var(--spacing-xl) 0;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--spacing-lg);
+        }
+
+        .contact-info-box h2 {
+            font-size: 2rem;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .contact-info-box > p {
+            color: var(--gray);
+            margin-bottom: var(--spacing-lg);
+            line-height: 1.7;
+        }
+
+        .contact-methods {
+            display: grid;
+            gap: var(--spacing-md);
+            margin-bottom: var(--spacing-lg);
+        }
+
+        .contact-method {
+            display: flex;
+            gap: var(--spacing-md);
+            padding: var(--spacing-md);
+            background: var(--light-gray);
+            border-radius: var(--radius-md);
+            transition: var(--transition);
+        }
+
+        .contact-method:hover {
+            background: var(--off-white);
+            transform: translateX(5px);
+        }
+
+        .method-icon {
+            font-size: 2rem;
+            flex-shrink: 0;
+        }
+
+        .method-details h4 {
+            color: var(--dark);
+            margin-bottom: 4px;
+        }
+
+        .method-details a {
+            color: var(--primary);
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        .method-details a:hover {
+            text-decoration: underline;
+        }
+
+        .method-details p {
+            color: var(--gray);
+            font-size: 0.9rem;
+            margin-top: 4px;
+        }
+
+        .directions-link {
+            font-size: 0.95rem !important;
+            display: inline-block;
+            margin-top: 4px;
+        }
+
+        .hours-box {
+            background: var(--primary);
+            color: var(--white);
+            padding: var(--spacing-md);
+            border-radius: var(--radius-md);
+        }
+
+        .hours-box h4 {
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .hours-table {
+            width: 100%;
+        }
+
+        .hours-table td {
+            padding: 6px 0;
+        }
+
+        .hours-table td:last-child {
+            text-align: right;
+            font-weight: 600;
+        }
+
+        .contact-form-box {
+            background: var(--white);
+            padding: var(--spacing-lg);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-md);
+        }
+
+        .contact-form-box h3 {
+            color: var(--dark);
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .contact-form-box > p {
+            color: var(--gray);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .btn-full {
+            width: 100%;
+        }
+
+        .map-section {
+            padding: var(--spacing-xl) 0;
+            background: var(--light-gray);
+        }
+
+        .map-container {
+            max-width: 800px;
+            margin: 0 auto var(--spacing-lg);
+        }
+
+        .map-placeholder {
+            background: linear-gradient(135deg, var(--secondary), var(--blue));
+            color: var(--white);
+            padding: var(--spacing-xl);
+            border-radius: var(--radius-lg);
+            text-align: center;
+        }
+
+        .map-placeholder span {
+            font-size: 4rem;
+            display: block;
+            margin-bottom: var(--spacing-sm);
+        }
+
+        .map-placeholder h3 {
+            font-size: 1.5rem;
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .map-placeholder p {
+            margin-bottom: var(--spacing-md);
+            opacity: 0.9;
+        }
+
+        .location-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--spacing-md);
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .location-detail {
+            background: var(--white);
+            padding: var(--spacing-md);
+            border-radius: var(--radius-md);
+            text-align: center;
+        }
+
+        .location-detail h4 {
+            color: var(--dark);
+            margin-bottom: var(--spacing-xs);
+        }
+
+        .location-detail p {
+            color: var(--gray);
+            font-size: 0.95rem;
+        }
+
+        .btn-large {
+            padding: var(--spacing-md) var(--spacing-lg);
+            font-size: 1.1rem;
+        }
+
+        @media (max-width: 768px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+</html>
