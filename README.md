@@ -25,24 +25,7 @@ This website was built as a freelance project for a local daycare business with 
 - **JavaScript** - Form validation, mobile navigation, scroll interactions
 - **Google Fonts** - Fredoka One & Nunito typefaces
 - **GitHub Pages** - Static site hosting
-
-## Project Structure
-
-TTD_Website/
-├── index.html # Homepage
-├── css/
-│ └── styles.css # Main stylesheet with CSS variables
-├── js/
-│ └── main.js # Client-side interactions
-└── pages/
-├── about.html # Company history and team
-├── programs.html # Childcare programs (Infant-10yr)
-├── enrollment.html # Enrollment inquiry form + FAQ
-├── contact.html # Contact form, map, directions
-├── gallery.html # Photo gallery (placeholder)
-└── testimonials.html # Google reviews integration
-
-
+  
 ## Key Implementation Details
 
 ### Responsive Design
