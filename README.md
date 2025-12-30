@@ -6,7 +6,7 @@ A responsive, mobile-first website developed for Tiny Todd's Daycare Inc., a lic
 
 This website was built as a freelance project for a local daycare business with 20+ years of operation. The goal was to create a professional online presence that effectively communicates the daycare's services, facilitates parent inquiries, and improves local search visibility.
 
-**Live Site:** [zmohammed5.github.io/TTD_Website](https://zmohammed5.github.io/TTD_Website/)
+**Live Site:** [zmohammed5.github.io/TTD_Website](https://tinytoddsdaycareinc.github.io/website/)
 
 ## Features
 
